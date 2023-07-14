@@ -2,40 +2,40 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Examples</title>
+    <title>CSS</title>
     <style>
-        p {margin-left: 20px;}
-        div {border:1px gray dotted;margin-bottom: 30px;margin-top: 30px;}
+        div p {}
+        div h2 {}
+        #test p  {}
+        #test h2  {}
+        .bbb {}
+        #test .bbb  {}
+        p.bbb {}
+        h2.bbb {}
+        #test p.bbb  {}
+        .bbb .xxx {}
+        p.bbb h2.xxx {}
+        #test p.bbb, #test p.xxx {}
+        .fff * {}
+        .fff p {}
+        p.fff {}
+        .fff .bbb {}
+        .fff h2.bbb {}
         
+        #test a:link, #test a:visited {color:red;text-decoration: none;}
+        #test a:hover {color:rgb(0, 191, 255);text-decoration:underline;}
+
+        a.www:link,a.www:visited {color:rgb(0, 191, 255);text-decoration:underline;}
+        a.www:hover {text-decoration:underline;}
+
+        #test a.www:link, #test a.www:visited {color:rgb(243, 82, 109)}
+        #test a.www:hover {color: blueviolet;}
+
+        a.eee:link .www {color:green;} 
+
     </style>
 </head>
 <body>
-    <div >
-    <p style="text-decoration: underline;">Привет, мир!</p>
-    <p style="text-decoration:line-through;">Привет, мир!</p>
-    <p style="text-decoration:overline">Привет, мир!</p>
-    </div>
-
-    <div>
-    <p style="width: 200px;height: 200px;border:1px red solid"></p>
-    </div>
     
-    <div>
-    <p style="width: 200px;height: 100px;border:1px blue dotted"></p>
-    </div>
-
-    <div>
-    <p style="width: 200px;height: 200px;border:1px rgb(5, 116, 29) dotted;border-radius: 40px;"></p>
-    </div>
-
-    <div>
-    <p style="width: 100px;height: 100px;border:1px rgb(255, 0, 0) solid;border-radius: 100%;"></p>
-    </div>
-
-    <div>
-        <p><a href="https:/google.com" style="color:green;text-decoration: underline;">https://vk.com/id_daydreamer_17</a></p> 
-        <p><a href="https:/google.com" style="color:red;text-decoration: underline;">https://www.youtube.com/channel/UCfl7PbNTPSzQVZHdheEQZMA</a></p>
-        <p><a href="https:/google.com" style="color:black;text-decoration: none;">https://discord.com/channels/@me</a></p>
-    </div>
 </body>
 </html>
